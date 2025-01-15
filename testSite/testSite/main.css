@@ -1,0 +1,149 @@
+
+html {
+    display: block;
+    height: 100%;
+    background-color: lightgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    height: 98%;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    border: tan solid 5px;
+	text-align: center;
+	
+}
+table{
+	max-height: 900px;
+	height: 400px;
+	width: 70%;
+	max-width: 900px;
+	margin: 0px auto;
+	border: tan solid 10px;
+	border-collapse: collapse;
+	background-color: white;
+
+}
+table tr{
+
+	border: orange solid 5px;
+}
+table td{
+
+	border: orange solid 5px;
+}
+.container {
+    display: block;
+}
+
+/* Row Grids */
+#heroRow {
+    display: grid;
+    height: 100px;
+    justify-content: center;
+    border: orange outset 15px;
+    background-color: tan;
+}
+
+#service1, #service2, #service3 {
+    display: grid;
+    height: auto;
+    border: orange inset 10px;
+    margin: 50px auto;
+}
+
+#service1 {
+    background-color: tan;
+}
+
+#service2 {
+    background-color: grey;
+}
+
+#service3 {
+    background-color: tan;
+}
+/* Navigation formatting */
+.menu {
+	border: tan solid 5px;
+}
+.menu li {
+    display: inline;
+}
+
+.menu a {
+	display: inline;
+    font-size: 20px;
+    padding: 0 30px;
+    text-decoration: none;
+    color: orange;
+
+}
+.menu a:hover {
+	font-size: 25px;
+    color: white;
+
+}
+
+#header {
+    display: block;
+    background-color: grey;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+/* Misc Styles */
+#service1 h1, #service1 p {
+    font-size: large;
+    padding-bottom: 0px;
+    padding-left: 25px;
+}
+#service2 h1, #service2 p {
+    font-size: large;
+    padding-bottom: 0px;
+    padding-left: 25px;
+}
+#service3 h1, #service3 p {
+    font-size: large;
+    padding-bottom: 0px;
+    padding-left: 25px;
+}
+#service1 h1, #service2 h1, #service3 h1 {
+    text-decoration: underline;
+}
+/* Form styles */
+#emailForm {
+    display: grid;
+    height: auto;
+    border: orange inset 10px;
+    margin: 50px auto;
+    background-color: tan;
+    justify-content: center;
+}
+textarea {
+    width: 500px;
+    min-width: 100px;
+    max-width: 1000px;
+}
+.form1 {
+    border-radius: 25px;
+}
+/* Footer styles */
+footer {
+	display: block;
+	background-color: white;
+    height: auto;
+    width: auto;
+    border: orange solid 5px;
+    margin: 50px auto 0px auto;
+    padding: 0px 20px 24px 0px;
+    text-align: center;
+}
+div#footer1 li {
+    display: inline;
+	margin: 0px auto;
+    padding: 0px 25px;
+}

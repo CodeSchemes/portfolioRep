@@ -1,0 +1,22 @@
+<!doctype HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Loan Payments</title>
+		<link href="mainstyles.css" rel="stylesheet" />
+	</head>
+	<body>
+	<form action="index.php" id="loansForm" method="POST">
+		<label for="amount">Loan Amount:</label>
+		<input type="number" id="amount" name="amount" min="1" max="999999" value=0 />
+		
+		<label for="apr">APR:</label>
+		<input type="number" id="apr" name="apr" min="1" max="100" value=0 />
+		
+		<label for="mPayment">Monthly Payment:</label>
+		<input type="number" id="mPayment" name="mPayment" min="1" max="999999" value=0 />
+		
+		<input type="submit" value="Calculate Payments"/>
+	</form>
+	</body>
+</html>

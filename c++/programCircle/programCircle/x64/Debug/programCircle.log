@@ -1,0 +1,4 @@
+﻿  programCircle.cpp
+E:\c++projects\programCircle\programCircle\programCircle.cpp(23,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\c++projects\programCircle\programCircle\programCircle.cpp(24,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  programCircle.vcxproj -> E:\c++projects\programCircle\x64\Debug\programCircle.exe

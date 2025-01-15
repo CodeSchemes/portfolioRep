@@ -1,0 +1,3 @@
+﻿  stateArray.cpp
+E:\c++projects\stateArray\stateArray\stateArray.cpp(28,6): warning C4101: 'i': unreferenced local variable
+  stateArray.vcxproj -> E:\c++projects\stateArray\x64\Debug\stateArray.exe
